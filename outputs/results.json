@@ -1,0 +1,32 @@
+{
+  "ticker": "AAPL",
+  "data_source": "Backup public AAPL dataset (2000-2008)",
+  "window": 60,
+  "features": [
+    "LogRet",
+    "MA20_dev",
+    "MA50_dev",
+    "RSI14_n"
+  ],
+  "rows": 2160,
+  "start": "2000-03-14",
+  "end": "2008-10-14",
+  "epochs_run": 14,
+  "metrics": {
+    "LSTM": {
+      "RMSE": 4.139941396298712,
+      "MAE": 2.9904216345675576,
+      "MAPE_pct": 2.1049034534518114,
+      "Directional_acc_pct": 55.55555555555556
+    },
+    "Naive (yesterday's close)": {
+      "RMSE": 4.141012970992234,
+      "MAE": 3.0011574074074083,
+      "MAPE_pct": 2.1121444831066105
+    },
+    "Context: share of up-days in test period (%)": {
+      "Directional_acc_pct": 53.70370370370371
+    }
+  },
+  "next_day_forecast": 103.90580924321881
+}
