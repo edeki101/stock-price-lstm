@@ -10,7 +10,7 @@ Predict the next trading day's closing price from past trends using a Keras LSTM
 | 2 | Jupyter notebook | [stock_lstm_colab.ipynb](stock_lstm_colab.ipynb) |
 | 3 | Model weights | [models/lstm_stock.weights.h5](models/lstm_stock.weights.h5) |
 | 4 | Graphs | [outputs/](outputs/) |
-| 5 | Streamlit dashboard | Coming soon (deployment steps below) |
+| 5 | Streamlit dashboard |[https://edeki101-stock-lstm.streamlit.app](https://edeki101-stock-lstm.streamlit.app) |
 | 6 | Project report (2 pages, PDF) | [report/Stock_LSTM_Report.pdf](report/Stock_LSTM_Report.pdf) |
 
 ## Results
